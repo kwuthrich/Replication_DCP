@@ -118,7 +118,7 @@ leng.cond <- binning(X.test.vec,leng.mat,num.seg)$cond
 
 graphics.off()
 pdf("graphics/conditional_coverage_returns.pdf",pointsize=22,width=16.0,height=9.0)
-plot(c(1,num.seg),c(0.4,1), type="n", ylab="Conditional coverage", xlab="Bins", main="Conditional coverage 90% prediction intervals")
+plot(c(1,num.seg),c(0.4,1), type="n", ylab="Conditional coverage", xlab="Bin", main="Conditional coverage 90% prediction intervals")
 
 lines((1:num.seg),cov.cond[,4],type="b",pch=4,lwd=3,col=rgb(1,0.8,0))
 lines((1:num.seg),cov.cond[,5],type="b",pch=5,lwd=3,col=rgb(1,0.8,0))
@@ -137,7 +137,7 @@ dev.off()
 
 graphics.off()
 pdf("graphics/conditional_length_returns.pdf",pointsize=22,width=16.0,height=9.0)
-plot(c(1,num.seg),c(0,10), type="n", ylab="Conditional length", xlab="Bins", main="Conditional length 90% prediction intervals")
+plot(c(1,num.seg),c(0,10), type="n", ylab="Conditional length", xlab="Bin", main="Conditional length 90% prediction intervals")
 
 lines((1:num.seg),leng.cond[,4],type="b",pch=4,lwd=3,col=rgb(1,0.8,0))
 lines((1:num.seg),leng.cond[,5],type="b",pch=5,lwd=3,col=rgb(1,0.8,0))
