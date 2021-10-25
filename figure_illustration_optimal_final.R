@@ -14,8 +14,8 @@ setwd("/Users/kasparwuthrich/Dropbox/research/SC/SC with Victor and Yinchu/Confo
 
 # Draw figure
 
-x1 <- seq(-3,3,length=100)
-x2 <- seq(0,15,length=100)
+x1 <- seq(-3,3,length=1000)
+x2 <- seq(0,15,length=1000)
 
 y1 <- dnorm(x1,0,1)
 
