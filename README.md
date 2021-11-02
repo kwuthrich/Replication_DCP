@@ -6,4 +6,6 @@ The code was last tested using on a MacBook Pro (2020) with macOS Big Sur 11.6 a
 
 The stock market data are publicly available and were downloaded on August 17, 2021 from Kenneth R. French's data library: https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html
 
+The CPS data are included in the R-package hdm: https://cran.r-project.org/web/packages/hdm/index.html
+
 Questions/error reports: kwuthrich@ucsd.edu
